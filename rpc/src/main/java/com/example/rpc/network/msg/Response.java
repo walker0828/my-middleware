@@ -1,10 +1,8 @@
 package com.example.rpc.network.msg;
 
 import io.netty.channel.Channel;
-import lombok.Data;
 
-@Data
-public class Request {
+public class Response {
     private transient Channel channel;
 
     private String requestId;
